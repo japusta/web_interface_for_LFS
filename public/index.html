@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Filesystem Viewer</title>
+    <style>
+        .directory:hover {
+            background-color: #e9e9e9; /* Цвет фона при наведении */
+            cursor: pointer;
+        }
+        /* Дополнительные стили для улучшения визуального отображения */
+        ul {
+            list-style-type: none; /* Убираем маркеры списка */
+            padding-left: 20px; /* Добавляем отступ для поддиректорий */
+        }
+        li {
+            margin: 5px 0; /* Добавляем небольшой отступ между элементами */
+        }
+    </style>
+</head>
+<body>
+    <h1>Filesystem Viewer</h1>
+    <div id="filesystem"></div>
+
+    <script src="app.js"></script>
+</body>
+</html>
